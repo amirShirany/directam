@@ -1,0 +1,213 @@
+/* stylelint-disable order/properties-order */
+.v-card {
+  z-index: unset !important;
+}
+
+.v-switch.v-switch--indeterminate .v-selection-control__input {
+  transform: scale(0.8) translateX(-15px) !important;
+}
+
+.text-primary-grey {
+  color: #adadad;
+}
+
+.helper-text {
+  font-weight: 300;
+  color: #d7d7d7;
+  font-size: 8px;
+  line-height: 14px;
+  text-align: justify;
+}
+
+.text-silver {
+  color: #757575;
+}
+
+.text-alert-success {
+  color: #00966d;
+}
+
+.header-card-text-color {
+  color: #0c0c0c;
+}
+
+.text-caption-card {
+  color: #9095aa;
+  font-size: 10px;
+}
+
+.header-card-badgecolor {
+  background-color: #ecfff3;
+  color: #00966d;
+}
+
+.alert-info {
+  padding: 8px 16px;
+
+  & .text-info-alert {
+    color: #0d6efd;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 14.4px;
+  }
+}
+
+// dashboard-follower-card//
+.follower-card {
+  background: var(--neutral-white, #ffffff);
+  box-shadow: 0px 3px 10px 0px #1c1c1c08;
+  border: 1px solid var(--neutral-Gray-3, #ededed);
+  min-width: 296px;
+  height: 150px;
+}
+
+// dashboard-services-card //
+.services-card {
+  min-width: 296px;
+  height: 170px;
+  border-color: #f9f9f9;
+  border-radius: 16px;
+  position: relative;
+  box-shadow: 0px 1px 2px 0px #0000000d, 0px 2px 8px 0px #00000014;
+  background-color: #f9f1fd;
+}
+
+.services-card-icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  right: 16px;
+}
+
+.services-card-headercolor {
+  color: #6d549f;
+  font-weight: 700;
+  font-size: 20px;
+}
+.services-card:hover {
+  background-color: var(--neutral-white, #ffffff);
+  box-shadow: 0px 1px 2px 0px #f9f1fd;
+  cursor: pointer;
+}
+
+.services-card-captioncolor1 {
+  color: #9079bf;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.services-card-dot {
+  background-color: #ffbe00;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: 4px;
+}
+
+.services-card-text {
+  color: #988ab4;
+  font-size: 10px;
+}
+
+.services-card-btn {
+  color: #7b5800;
+  width: 140px;
+  height: 33px;
+  box-shadow: 0px 8px 44px -16px #3a2357;
+  border: 1px solid;
+  background: linear-gradient(
+    90.05deg,
+    rgba(255, 190, 0, 0.5) 0.04%,
+    rgba(255, 190, 0, 0.8) 102.1%
+  );
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(197, 148, 255, 0.3) -4.29%,
+    rgba(197, 148, 255, 0.85) 49.11%,
+    rgba(197, 148, 255, 0.8) 75.8%,
+    rgba(197, 148, 255, 0.4) 102.5%
+  );
+}
+
+// dashboard-telegram-card//
+.telegram-card {
+  min-width: 296px;
+  min-height: 99px;
+  border-radius: 8px;
+  background: linear-gradient(0deg, #bddefc, #bddefc),
+    radial-gradient(
+      72.88% 72.88% at 52.53% 33.9%,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  box-shadow: 0px 2px 4px 0px rgba(40, 41, 61, 0.04),
+    0px 8px 16px 0px rgba(96, 97, 112, 0.15);
+}
+
+.telegram-card h1 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #205bc3;
+}
+
+.telegram-card p {
+  margin-bottom: 4px;
+  font-size: 8px;
+  font-weight: 300;
+  color: #757575;
+}
+
+.telegram-card button {
+  color: var(--neutral-white, #ffffff);
+  margin-bottom: 8px;
+  padding: 4px 7px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(0, 90, 208, 0.3) -4.29%,
+    rgba(0, 90, 208, 0.85) 49.11%,
+    rgba(0, 90, 208, 0.8) 75.8%,
+    rgba(0, 90, 208, 0.4) 102.5%
+  );
+  background: linear-gradient(
+    90.05deg,
+    rgba(0, 90, 208, 0.5) 0.04%,
+    rgba(0, 90, 208, 0.8) 102.1%
+  );
+  box-shadow: 0 8px 44px -16px #3a2357;
+}
+
+.telegram-card img {
+  width: 107px;
+  height: 117px;
+  margin-top: -39px;
+  margin-left: -15px;
+}
+
+//dashboard-status-card
+.status-crd {
+  background-color: #ffffff;
+  border-radius: 16px;
+  min-width: 296px;
+  min-height: 242px;
+  border: 1px solid #cbced7;
+}
+
+.status-crd h1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+}
+
+.status-crd h2 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.76px;
+}
+
+.status-crd span {
+  color: #cbcbcb;
+  font-size: 10px;
+}
