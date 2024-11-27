@@ -1,5 +1,5 @@
 <script setup>
-import ChartAreaTest from "@/components/chart/ChartAreaTest.vue";
+import ChartArea from "@/components/chart/ChartArea.vue";
 </script>
 
 <template>
@@ -29,7 +29,7 @@ import ChartAreaTest from "@/components/chart/ChartAreaTest.vue";
             </div>
             <!-- chart-Area -->
             <div>
-              <ChartAreaTest />
+              <ChartArea />
             </div>
           </div>
         </div>

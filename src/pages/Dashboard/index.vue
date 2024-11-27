@@ -1,8 +1,8 @@
 <script setup>
-import FollowerCard from "@/components/dashbord-sh/FollowerCard.vue";
-import ServicesCard from "@/components/dashbord-sh/ServicesCard.vue";
-import TelegramCard from "@/components/dashbord-sh/TelegramCard.vue";
-import StatusCard from "@/components/dashbord-sh/StatusCard.vue";
+import FollowerCard from "@/components/dashbord/FollowerCard.vue";
+import ServicesCard from "@/components/dashbord/ServicesCard.vue";
+import TelegramCard from "@/components/dashbord/TelegramCard.vue";
+import StatusCard from "@/components/dashbord/StatusCard.vue";
 </script>
 
 <template>
